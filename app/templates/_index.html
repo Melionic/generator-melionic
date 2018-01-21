@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}</li>
+  {% endfor %}
+</ul>
+
+
+<!--
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site_url }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %} -->

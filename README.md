@@ -1,2 +1,2 @@
-# generator-static
-:octocat: A Yeoman generator
+#  :octocat: Generator Static
+###  A Jekyll Static Site Generator 🕸️

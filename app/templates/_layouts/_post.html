@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+{% if page.date_modified %}
+{% assign modified = page.date_modified %}
+{% else %}
+{% assign modified = page.date %}
+{% endif %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h2 style="text-transform:uppercase;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h2>
+    <p>
+      {% if page.author %}
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}
+    </p>
+
+    <p>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
+
+    <p>
+      {% if page.tags.size > 0 %}
+        Tag{% if page.tags.size > 1 %}s{% endif %}:
+        {% assign tags = page.tags | sort %}
+        {% include taglist.html %}
+      {% endif %}
+    </p>
+  </header>
+
+  {{ content }}
+
+</article>

@@ -1,0 +1,104 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Sebastien Rousseau
+author: Sebastien Rousseau
+locale: en-gb
+email: hello@sebastienrousseau.co.uk
+description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
+# baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://sebastienrousseau.co.uk" # the base hostname & protocol for your site
+theme: minima
+twitter_username: wwdseb
+github_username: sebastienrousseau
+facebook_username: wwdseb
+facebook_id: 10156052650356913
+linkedin_username: sebastienrousseau
+google_plus_username: +sebastienrousseau
+google_analytics: UA-112050664-1
+
+# Build settings
+encoding: utf-8
+repository: reedia/sebastienrousseau.co.uk
+markdown: kramdown
+include: ["_pages"]
+excerpt_separator: <!--more-->
+exclude:
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - vendor/
+  - yarn.lock
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-twitter-plugin
+  - jekyll-seo-tag
+  - jekyll-minifier
+  - jekyll-watch
+  - jekyll-assets
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - autoprefixer-rails
+
+permalink: /:title
+paginate: 5
+paginate_path: "/page:num/"
+permalink: pretty
+timezone:  Europe/London
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+assets:
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
+  source_maps: false
+  sources:
+    - assets/fonts
+    - assets/icons
+    - assets/images
+    - assets/javascripts
+    - assets/stylesheets
+
+caching:
+  path: ".jekyll-cache/assets"
+  type: file # Possible values: memory, file
+  enabled: true
+# --
+# baseurl: whether or not to append site.baseurl
+# destination: the folder you store them in on the CDN.
+# url: the CDN url (fqdn, or w/ identifier).
+# --
+# cdn:
+#   baseurl: false
+#   destination: false
+#   url: null
+# --
+# These are all default. No need to add them
+#   Only use this if you have more.
+# --
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
