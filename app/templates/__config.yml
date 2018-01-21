@@ -13,25 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: <%= site_author %>
-author: <%= site_author %>
-locale: <%= site_language %>
-email: <%= site_email %>
-description: <%= site_description %>
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "<%= site_url %>" # the base hostname & protocol for your site
+title: '<%= site_author %>'
+author: '<%= site_author %>'
+locale: '<%= site_language %>'
+email: '<%= site_email %>'
+description: '<%= site_description %>'
+url: '<%= site_url %>'
 theme: minima
-twitter_username: <%= twitter_username %>
-github_username: <%= github_username %>
-facebook_username: <%= facebook_username %>
-facebook_id: <%= facebook_id %>
-linkedin_username: <%= linkedin_username %>
-google_plus_username: <%= google_plus_username %>
-google_analytics: <%= google_analytics %>
+twitter_username: '<%= twitter_username %>'
+github_username: '<%= github_username %>'
+facebook_username: '<%= facebook_username %>'
+facebook_id: '<%= facebook_username %>'
+linkedin_username: '<%= linkedin_username %>'
+google_plus_username: '<%= google_plus_username %>'
+google_analytics: '<%= ga_tracking_id %>'
 
 # Build settings
-encoding: utf-8
-repository: <%= github_repo %>
+encoding: 'utf-8'
+repository: '<%= github_repo %>'
 markdown: kramdown
 include: ["_pages"]
 excerpt_separator: <!--more-->
