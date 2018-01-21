@@ -1,6 +1,5 @@
 ---
-sebastienrousseau:
-  name: Sebastien Rousseau
-  email: sebastianrousseau@gmail.com
-  web: https://sebastienrousseau.co.uk
-  image: https://sebastienrousseau.co.uk/assets/images/SebastienRousseau.jpeg
+<%= site_author.replace(/\s/g,'').toLowerCase() %>:
+  name: <%= site_author %>
+  email: <%= site_email.toLowerCase() %>
+  web: <%= site_url.toLowerCase() %>

@@ -1,37 +1,30 @@
 ---
 layout: default
-title: About Sebastien Rousseau
-description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
-permalink: /about/sebastienrousseau
+title: About <%= site_author %>
+description: <%= site_description %>
+permalink: /about/<%= site_author.replace(/\s/g,'').toLowerCase() %>
 categories: []
-tags: [blockchain, banking, financial services, development, consultancy, london]
+tags: [<%= site_keywords %>]
 status: publish
 type: page
 published: true
-meta: { sebastien rousseau, solution architect and engineer lead, founder & ceo, reedia limited, specialised in blockchain, banking, financial services, london}
+meta: { <%= site_keywords %> }
 ---
 
 ## Bio
+Lorem ipsum dolor sit amet, an vel liber electram definiebas. Ius te decore verterem cotidieque. Eos mediocrem intellegat ex, augue dicta mei et. Laudem populo te vim, no pri illum legere aperiri. Ne est omnium quaestio dissentias, et augue deleniti cum. Ne sed errem altera minimum, feugiat dissentiunt duo ut, eum ei nonumy feugiat senserit.
 
-_Founder & CEO, <a href="https://reedia.com">Reedia Limited</a>_
-
-Sebastien Rousseau is the founder and CEO of <a href="https://reedia.com">Reedia Limited</a> - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
-
-He is a commercially driven solution architect and engineer lead, specialised in growing digital businesses as a consultant with a focus on blockchain, cryptocurrency and digital payment transformation programmes.
-
-He has been developing financial and digital payment products for numerous years working with banks, financial services, online payment service providers, communication and media sectors. Based on this experience he has highly developed strategic leadership, cross-platform product design and solution architecture skills.
-
-Across his consulting career, Sebastien has designed, delivered and championed operational improvements of a number of complex mobile projects within Barclays Bank PLC; led the mobile software teams at Shazam Entertainment Limited and championed a range of online and contactless payment propositions for strategic partners at PayPal Inc.
+Vis case audiam sententiae eu. Vis eu falli ceteros lucilius. No mei eleifend elaboraret necessitatibus, vis natum fuisset dignissim cu. Sit duis epicuri praesent an, ius in malorum euripidis, ea mea everti commodo aliquip. Est an discere lobortis. Vim vide legere ne, porro euripidis ad nam.
 
 <hr />
 
-  <form id="contactform" method="POST" action="https://formspree.io/hello@sebastienrousseau.co.uk">
+  <form id="contactform" method="POST" action="https://formspree.io/<%= site_email %>">
     <p><strong>Email Address</strong></p>
     <input type="email" name="_replyto" placeholder="Your email address" />
 
     <p><strong>Message</strong></p>
     <textarea placeholder="Your message" name="message"></textarea>
-    <input type="hidden" name="_subject" value="New message from sebastienrousseau.co.uk" />
+    <input type="hidden" name="_subject" value="New message from <%= site_url %>" />
     <br />
     <input type="submit" value="Submit" />
   </form>

@@ -1,5 +1,5 @@
 <h4>Newsletter</h4>
-<form class="text-left" action="https://tinyletter.com/sebastienrousseau" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/sebastienrousseau', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+<form class="text-left" action="https://tinyletter.com/<%= site_author.replace(/\s/g,'').toLowerCase() %>" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/<%= site_author.replace(/\s/g,'').toLowerCase() %>', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
   <label for="tlemail">Email Address</label>
   <input type="text" placeholder="Email Address" name="email" id="tlemail">
   <input type="hidden" value="1" name="embed">

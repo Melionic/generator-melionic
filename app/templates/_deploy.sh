@@ -1,14 +1,14 @@
 #!/bin/bash
-DEPLOY_REPO="https://$GH_TOKEN@github.com/reedia/sebastienrousseau.co.uk.git"
+DEPLOY_REPO="https://$GH_TOKEN<%= github_repo %>"
 
-echo "-- Deploying changes on sebastienrousseau.co.uk"
+echo "-- Deploying changes on <%= site_url %>"
 
 setup() {
   set -e # Exit with nonzero exit code if anything fails
 
   rev=$(git rev-parse --short HEAD)
 
-  echo "-- Starting deploy to https://sebastienrousseau.co.uk"
+  echo "-- Starting deploy to <%= site_url %>"
 
   # Build the docs page locally
   export JEKYLL_ENV="production"
@@ -16,14 +16,14 @@ setup() {
 }
 
 setup_git() {
-  git config --global user.email "release@sebastienrousseau.co.uk"
+  git config --global user.email "release@<%= site_url %>"
   git config --global user.name "Release Bot"
 
   # Delete old directories (if any)
-  rm -rf "/tmp/sebastienrousseau.co.uk"
+  rm -rf "/tmp/<%= site_url %>"
 
   # Copy the generated website to the temporary directory
-  cp -R "_site/" "/tmp/sebastienrousseau.co.uk"
+  cp -R "_site/" "/tmp/<%= site_url %>"
 
   # Check out gh-pages and clear all files
   git reset --hard HEAD
@@ -38,7 +38,7 @@ setup_git() {
   cp -R /tmp/sebastienrousseau.co.uk/* .
 
   # We need a CNAME file for GitHub
-  echo "sebastienrousseau.co.uk" > "CNAME"
+  echo "<%= site_url %>" > "CNAME"
 }
 
 commit() {
@@ -50,13 +50,13 @@ commit() {
 
   # Post a Slack message
   git checkout master
-  echo "-- Deployed successfully, check out https://sebastienrousseau.co.uk"
+  echo "-- Deployed successfully, check out <%= site_url %>"
 }
 
 push() {
   git push upstream gh-pages --force
   git checkout master
-  echo "Deployed successfully, check out https://sebastienrousseau.co.uk"
+  echo "Deployed successfully, check out <%= site_url %>"
   exit 0
 }
 
