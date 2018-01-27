@@ -1,8 +1,8 @@
-# [sebastienrousseau.co.uk](https://sebastienrousseau.co.uk)
+# [<%= site_url %>](<%= site_url %>)
 
 ### To run the server locally:
 ```
-git clone https://github.com/sebastienrousseau/sebastienrousseau.co.uk
+git clone <%= github_repo %>
 ```
 
 ### Install bundler

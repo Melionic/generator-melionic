@@ -228,6 +228,15 @@ class StaticGenerator extends Generators {
       this.destinationPath('favicon.ico')
     );
     this.fs.copyTpl(
+      this.templatePath('../templates/_README.md'),
+      this.destinationPath('README.md'),
+      {
+        github_repo: `${this.githubRepo}`,
+        site_url: `${this.siteUrl}`
+      }
+
+    );
+    this.fs.copyTpl(
       this.templatePath('../templates/_facebook-instant-feed.xml'),
       this.destinationPath('facebook-instant-feed.xml')
     );
