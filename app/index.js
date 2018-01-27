@@ -1,7 +1,7 @@
 /**
 *
-*  MELIONIC
-*  🐺 MELIONIC - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.
+*  Melionic
+*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.
 *
 *  Copyright 2018 Reedia Limited. All rights reserved.
 *

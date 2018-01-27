@@ -8,7 +8,7 @@
     "type"    : "input",
     "name"    : "siteTitle",
     "message" : "Set your site title",
-    "default" :  "MELIONIC"
+    "default" :  "Melionic"
   },{
     "type"    : "input",
     "name"    : "siteLogo",
