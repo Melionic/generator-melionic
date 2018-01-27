@@ -1,7 +1,7 @@
 /**
 *
 *  Melionic
-*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot. 
+*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.
 *
 *  Copyright 2018 Reedia Limited. All rights reserved.
 *
@@ -17,15 +17,15 @@
 *
 *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 *  THE SOFTWARE.
 *
 */
+'use strict';
 (function () {
-  'use strict'
   /*  jslint nomen: true  */
   /*  jslint vars: true */
   /*  global require,process,module */
@@ -43,13 +43,13 @@
     * Declares options in the generator (only used for the help messages)
     */
     StaticGenerator.prototype.projectfiles = function projectfiles () {
-      this.directory('app', 'app')
-      this.directory('hooks', 'hooks')
+      this.directory('app', 'app');
+      this.directory('hooks', 'hooks');
 
-      this.mkdir('server')
-      this.mkdir('test')
-      this.mkdir('app/images')
-      this.mkdir('resources')
+      this.mkdir('server');
+      this.mkdir('test');
+      this.mkdir('app/images');
+      this.mkdir('resources');
 
       this.fs.copyTpl(
         this.templatePath('index.html'),
@@ -64,7 +64,7 @@
           ngModulKeywords: this._.classify(this.appKeywords),
           ngModulAuthor: this._.classify(this.appUserName)
         }
-      )
+      );
       // services
       this.fs.copyTpl(
         this.templatePath('scripts/services/user.service.js'),
@@ -72,35 +72,35 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/services/example.service.js'),
         this.destinationPath('app/scripts/services/example.service.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/services/api.service.js'),
         this.destinationPath('app/scripts/services/api.service.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/services/localstorage.service.js'),
         this.destinationPath('app/scripts/services/localstorage.service.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/services/auth.service.js'),
         this.destinationPath('app/scripts/services/auth.service.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // Configuration files
       this.fs.copyTpl(
@@ -109,7 +109,7 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // controllers
       this.fs.copyTpl(
@@ -118,77 +118,77 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/translateController.js'),
         this.destinationPath('app/scripts/controllers/translateController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/loginController.js'),
         this.destinationPath('app/scripts/controllers/loginController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/signupController.js'),
         this.destinationPath('app/scripts/controllers/signupController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/homeController.js'),
         this.destinationPath('app/scripts/controllers/homeController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/productsController.js'),
         this.destinationPath('app/scripts/controllers/productsController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/productController.js'),
         this.destinationPath('app/scripts/controllers/productController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/newProductController.js'),
         this.destinationPath('app/scripts/controllers/newProductController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/editProductController.js'),
         this.destinationPath('app/scripts/controllers/editProductController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/mainController.js'),
         this.destinationPath('app/scripts/controllers/mainController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('scripts/controllers/settingsController.js'),
         this.destinationPath('app/scripts/controllers/settingsController.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // config
       this.fs.copyTpl(
@@ -197,7 +197,7 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // translate
       this.fs.copyTpl(
@@ -206,7 +206,7 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // routes
       this.fs.copyTpl(
@@ -215,168 +215,168 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // gulp tasks
       this.fs.copyTpl(
         this.templatePath('gulp/karma.task.js'),
         this.destinationPath('gulp/karma.task.js')
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/plato.task.js'),
         this.destinationPath('gulp/plato.task.js')
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/help.task.js'),
         this.destinationPath('gulp/help.task.js')
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/scripts.task.js'),
         this.destinationPath('gulp/scripts.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/cli.task.js'),
         this.destinationPath('gulp/cli.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/clean.task.js'),
         this.destinationPath('gulp/clean.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/fonts.task.js'),
         this.destinationPath('gulp/fonts.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/licenses.task.js'),
         this.destinationPath('gulp/licenses.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/templates.task.js'),
         this.destinationPath('gulp/templates.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/iconfont.task.js'),
         this.destinationPath('gulp/iconfont.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/styles.task.js'),
         this.destinationPath('gulp/styles.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/images.task.js'),
         this.destinationPath('gulp/images.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/favicon.task.js'),
         this.destinationPath('gulp/favicon.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/jshint.task.js'),
         this.destinationPath('gulp/jshint.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/vendor.task.js'),
         this.destinationPath('gulp/vendor.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/languages.task.js'),
         this.destinationPath('gulp/languages.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/index.task.js'),
         this.destinationPath('gulp/index.task.js'),
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/serve.task.js'),
         this.destinationPath('gulp/serve.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/select.task.js'),
         this.destinationPath('gulp/select.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/ripple.task.js'),
         this.destinationPath('gulp/ripple.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/watchers.task.js'),
         this.destinationPath('gulp/watchers.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/noop.task.js'),
         this.destinationPath('gulp/noop.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/default.task.js'),
         this.destinationPath('gulp/default.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       this.fs.copyTpl(
         this.templatePath('gulp/plugins.task.js'),
         this.destinationPath('gulp/plugins.task.js'),
         {
           appName: this._.classify(this.appName)
         }
-      )
+      );
       // utils
       this.fs.copyTpl(
         this.templatePath('scripts/utils/lodash.js'),
@@ -384,7 +384,7 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       // app
       this.fs.copyTpl(
@@ -393,12 +393,12 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
 
       this.fs.copy(
         this.templatePath('server'),
         this.destinationPath('server')
-      )
+      );
 
       this.fs.copy(
         this.templatePath('test'),
@@ -406,7 +406,7 @@
         {
           ngModulName: this._.classify(this.appName)
         }
-      )
+      );
       // this.fs.copy(
       //   this.templatePath('_avionic.css'),
       //   this.destinationPath('app/styles/icons/avionic.css'),
@@ -418,7 +418,7 @@
       this.fs.copy(
         this.templatePath('_vendor.json'),
         this.destinationPath('vendor.json')
-      )
+      );
 
       // this.fs.copy(
       //   this.templatePath('_plugins.json'),
@@ -428,17 +428,17 @@
       this.fs.copy(
         this.templatePath('favicon.ico'),
         this.destinationPath('app/favicon.ico')
-      )
+      );
 
       this.fs.copy(
         this.templatePath('splash.png'),
         this.destinationPath('resources/splash.png')
-      )
+      );
 
       this.fs.copy(
         this.templatePath('icon.png'),
         this.destinationPath('resources/icon.png')
-      )
-    }
-  }
-}())
+      );
+    };
+  };
+})();

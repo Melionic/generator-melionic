@@ -1,7 +1,7 @@
 /**
 *
 *  Melionic
-*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot. 
+*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.
 *
 *  Copyright 2018 Reedia Limited. All rights reserved.
 *
@@ -17,29 +17,29 @@
 
 *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 *  THE SOFTWARE.
 *
 */
+'use strict';
 (function () {
-  'use strict'
-
-  var chalk = require('chalk')
+  var chalk = require('chalk');
 
   exports.logo = function () {
     return console.log(
       // Avionic ASCII Text Logo
-      chalk.cyan.bold('\n      ____ _____  _  _____ ___ ____  ')+
-      chalk.cyan.bold('\n     / ___|_   _|/ \|_   _|_ _/ ___| ')+
-      chalk.cyan.bold('\n     \\___ \\ | | / _ \\ | |  | | |     ')+
-      chalk.cyan.bold('\n      ___) || |/ ___ \\| |  | | |___  ')+
-      chalk.cyan.bold('\n     |____/ |_/_/   \\_\\_| |___\\____| ')+
+      chalk.cyan.bold('\n      ____ _____  _  _____ ___ ____            ') +
+      chalk.cyan.bold('\n      _ _             _                        ') +
+      chalk.cyan.bold('\n      /\\/\\   ___| (_) ___  _ __ (_) ___      ') + 
+      chalk.cyan.bold('\n      /    \\ / _ \\ | |/ _ \\| '_ \\| |/ __|  ') +
+      chalk.cyan.bold('\n      / /\\/\\ \  __/ | | (_) | | | | | (__    ') +
+      chalk.cyan.bold('\n      \\/    \\/\\___|_|_|\\___/|_| |_|_|\\___|') +
       '\n' +
-      chalk.cyan.bold('\n-- ') + chalk.yellow.bold('Propelling World-class Cross-platform Hybrid Applications') + chalk.cyan.bold(' -- ✈'))
-  }
+      chalk.cyan.bold('\n-- ') + chalk.yellow.bold('Propelling World-class Cross-platform Hybrid Applications') + chalk.cyan.bold(' -- ✈'));
+  };
 
   exports.captain = function () {
     return console.log(
@@ -47,11 +47,11 @@
       '\n' +
       chalk.red.bold('\n                             .---. ') +
       chalk.red.bold('\n                            /_ ') + chalk.cyan.bold('✈') + chalk.red.bold(' _\\') +
-      chalk.white.bold("\n                            ( '_' )") +
+      chalk.white.bold('\n                            ( \'_\' )') +
       chalk.white.bold('\n                             \\_-_/') +
       chalk.red.bold('\n                       >>>___  ~  ___<<<')
-    )
-  }
+    );
+  };
 
   exports.crew = function () {
     return console.log(
@@ -61,11 +61,11 @@
       chalk.yellow.bold('\n                            )/') + chalk.cyan.bold('• •') + chalk.yellow.bold('\\(') +
       chalk.yellow.bold('\n                           ( ') + chalk.white.bold('( - )') + chalk.yellow.bold(' )') +
       chalk.yellow.bold('\n                            )') + chalk.red.bold('_') + chalk.yellow.bold('') + chalk.white.bold(') (') + chalk.yellow.bold('') + chalk.red.bold('_') + chalk.yellow.bold('(') +
-      chalk.white.bold("\n                           /'") + chalk.red.bold('\\') + chalk.red.bold('   /') + chalk.white.bold("'\\") +
+      chalk.white.bold('\n                           /\'') + chalk.red.bold('\\') + chalk.red.bold('   /') + chalk.white.bold('\'\\') +
       chalk.white.bold('\n                          /,') + chalk.red.bold('(_\\_/_)') + chalk.white.bold(',\\') +
       chalk.white.bold('\n                          \\\\ ') + chalk.red.bold('\\ ') + chalk.cyan.bold('✈') + chalk.red.bold(' /') + chalk.white.bold(' //')
-    )
-  }
+    );
+  };
 
   exports.plane = function () {
     return console.log(
@@ -78,6 +78,6 @@
       chalk.red.bold('\n(_)_______________________( ( ') + chalk.white.bold('•') + chalk.red.bold(' ) )_______________________(_)') +
       chalk.red.bold('\n                           \\_____/\n') +
       '\n'
-    )
-  }
-}())
+    );
+  };
+})();

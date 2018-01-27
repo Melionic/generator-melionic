@@ -1,7 +1,7 @@
 /**
 *
 *  Melionic
-*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot. 
+*  🐺 Melionic - A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.
 *
 *  Copyright 2018 Reedia Limited. All rights reserved.
 *
@@ -17,19 +17,19 @@
 *
 *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 *  THE SOFTWARE.
 *
 */
+'use strict';
 (function () {
-  'use strict'
   /*  jslint nomen: true  */
   /*  jslint vars: true */
   /*  global require,process,module */
-  var chalk = require('chalk')
+  var chalk = require('chalk');
 
   module.exports = function (StaticGenerator) {
     /**
@@ -38,7 +38,7 @@
     StaticGenerator.prototype.install = function install () {
       this.installDependencies({
         skipInstall: this.options['skip-install']
-      })
-    }
-  }
-}())
+      });
+    };
+  };
+})();
