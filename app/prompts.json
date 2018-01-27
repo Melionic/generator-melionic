@@ -2,92 +2,92 @@
   {
     "type"    : "input",
     "name"    : "siteVersion",
-    "message" : "Your site version",
+    "message" : "Set your site version",
     "default" :  "0.0.1"
   },{
     "type"    : "input",
     "name"    : "siteTitle",
-    "message" : "Your site title",
+    "message" : "Set your site title",
     "default" :  "MELIONIC"
   },{
     "type"    : "input",
     "name"    : "siteLanguage",
-    "message" : "Your site language (i.e en-GB)",
+    "message" : "Set your site language (i.e en-GB)",
     "default" :  "en-GB"
   },{
     "type"    : "input",
     "name"    : "siteDescription",
-    "message" : "Your site description",
+    "message" : "Set your site description",
     "default" :  "A website generator for Jekyll"
   },{
     "type"    : "input",
     "name"    : "siteKeywords",
-    "message" : "Your site keywords",
+    "message" : "Set your site keywords",
     "default" :  "generator, static"
   },{
     "type"    : "input",
     "name"    : "siteUrl",
-    "message" : "Your site URL",
+    "message" : "Set your site URL",
     "default" :  "generator-site.com"
   },
   {
     "type"    : "input",
     "name"    : "siteAuthor",
-    "message" : "Your name",
+    "message" : "Set your name",
     "default" :  "My name"
   },{
     "type"    : "input",
     "name"    : "facebookUsername",
-    "message" : "Your facebook username",
+    "message" : "Set your facebook username",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "twitterUsername",
-    "message" : "Your twitter handle",
+    "message" : "Set your twitter handle",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "linkedinUsername",
-    "message" : "Your linkedin handle",
+    "message" : "Set your linkedin handle",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "googleplusUsername",
-    "message" : "Your googleplus username",
+    "message" : "Set your googleplus username",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "disqusId",
-    "message" : "Your disqus ID",
+    "message" : "Set your disqus ID",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "addthisPubId",
-    "message" : "Your AddThis pub ID",
+    "message" : "Set your AddThis pub ID",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "gaTrackingId",
-    "message" : "Your Google Analytics Tracking ID",
+    "message" : "Set your Google Analytics Tracking ID",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "gaSuperProxyUrl",
-    "message" : "Your Google Analytics Super Proxy URL",
+    "message" : "Set your Google Analytics Super Proxy URL",
     "default" :  ""
   },{
     "type"    : "input",
     "name"    : "githubUsername",
-    "message" : "Your GitHub username",
+    "message" : "Set your GitHub username",
     "default" :  "githubusername"
   },{
     "type"    : "input",
     "name"    : "githubRepo",
-    "message" : "Your GitHub Repo",
+    "message" : "Set your GitHub Repo",
     "default" :  "@github.com:reedia/generator-melionic.git"
   },{
     "type"    : "input",
     "name"    : "feedbackUrl",
-    "message" : "Your Feedback URL"
+    "message" : "Set your Feedback URL"
   }
 ]
