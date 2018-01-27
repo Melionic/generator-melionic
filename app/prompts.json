@@ -8,7 +8,7 @@
     "type"    : "input",
     "name"    : "siteTitle",
     "message" : "Set your site title",
-    "default" :  "Melionic"
+    "default" :  "🐺 Melionic - A Yeoman static site and blog generator for Jekyll projects in Ruby"
   },{
     "type"    : "input",
     "name"    : "siteLogo",
@@ -23,17 +23,17 @@
     "type"    : "input",
     "name"    : "siteDescription",
     "message" : "Set your site description",
-    "default" :  "A website generator for Jekyll"
+    "default" :  "A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot."
   },{
     "type"    : "input",
     "name"    : "siteKeywords",
     "message" : "Set your site keywords",
-    "default" :  "generator, static"
+    "default" :  "static-site-generator, jekyll,jekyll-site, jekyll-blog, jekyll-website, blog-engine, javascript, node-js, markdown, markdown-to-html, static-site, static-site-generation, static-site-generator-generator, ruby, yeoman-generator, yo, lightweight, responsive, skeletonic"
   },{
     "type"    : "input",
     "name"    : "siteUrl",
     "message" : "Set your site URL",
-    "default" :  "generator-site.com"
+    "default" :  "https://melionic.com"
   },
   {
     "type"    : "input",
@@ -44,42 +44,42 @@
     "type"    : "input",
     "name"    : "facebookUsername",
     "message" : "Set your facebook username",
-    "default" :  ""
+    "default" :  "facebookUsername"
   },{
     "type"    : "input",
     "name"    : "twitterUsername",
     "message" : "Set your twitter handle",
-    "default" :  ""
+    "default" :  "twitterUsername"
   },{
     "type"    : "input",
     "name"    : "linkedinUsername",
     "message" : "Set your linkedin handle",
-    "default" :  ""
+    "default" :  "linkedinUsername"
   },{
     "type"    : "input",
     "name"    : "googleplusUsername",
     "message" : "Set your googleplus username",
-    "default" :  ""
+    "default" :  "googleplusUsername"
   },{
     "type"    : "input",
     "name"    : "disqusId",
     "message" : "Set your disqus ID",
-    "default" :  ""
+    "default" :  "disqusId"
   },{
     "type"    : "input",
     "name"    : "addthisPubId",
     "message" : "Set your AddThis pub ID",
-    "default" :  ""
+    "default" :  "addthisPubId"
   },{
     "type"    : "input",
     "name"    : "gaTrackingId",
     "message" : "Set your Google Analytics Tracking ID",
-    "default" :  ""
+    "default" :  "gaTrackingId"
   },{
     "type"    : "input",
     "name"    : "gaSuperProxyUrl",
     "message" : "Set your Google Analytics Super Proxy URL",
-    "default" :  ""
+    "default" :  "gaSuperProxyUrl"
   },{
     "type"    : "input",
     "name"    : "githubUsername",
