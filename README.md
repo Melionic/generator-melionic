@@ -1,23 +1,20 @@
 <center>
-
 # ![Melionic Logo](images/melionic.png)
-
 
 ### Introducing 🐺 MELIONIC
 
 #### A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects.
 
-</center>
+Skeletonic is a lightweight, intuitive and ultra-responsive CSS framework to speed up your Digital and Mobile Web development needs.
 
-p align="center">Skeletonic is a lightweight, intuitive and ultra-responsive CSS framework to speed up your Digital and Mobile Web development needs.</p>
+Simply designed to fit your web life.
 
-<p align="center">Simply designed to fit your web life.</p>
-
-<p align="center"><a href="https://github.com/reedia/skeletonic/archive/v1.0.35.zip">Download Skeletonic CSS</a></p>
+<a href="https://github.com/reedia/skeletonic/archive/v1.0.35.zip">Download Skeletonic CSS</a>
 
 [![npm version](https://badge.fury.io/js/skeletonic.svg)](https://badge.fury.io/js/skeletonic)
 [![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://skeletonic.github.io/license)
 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/reedia/skeletonic)
+
 
 ## Table of contents
 
