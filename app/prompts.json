@@ -13,7 +13,7 @@
     "type"    : "input",
     "name"    : "siteLogo",
     "message" : "Set your site logo path",
-    "default" :  "/assets/images/logo.png"
+    "default" :  "http://via.placeholder.com/128x128"
   },{
     "type"    : "input",
     "name"    : "siteLanguage",

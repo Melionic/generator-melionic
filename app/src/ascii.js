@@ -30,20 +30,17 @@
 
   exports.logo = function () {
     return console.log(
-      // Avionic ASCII Text Logo
-      chalk.cyan.bold('\n      ____ _____  _  _____ ___ ____            ') +
-      chalk.cyan.bold('\n      _ _             _                        ') +
-      chalk.cyan.bold('\n      /\\/\\   ___| (_) ___  _ __ (_) ___      ') + 
-      chalk.cyan.bold('\n      /    \\ / _ \\ | |/ _ \\| '_ \\| |/ __|  ') +
-      chalk.cyan.bold('\n      / /\\/\\ \  __/ | | (_) | | | | | (__    ') +
-      chalk.cyan.bold('\n      \\/    \\/\\___|_|_|\\___/|_| |_|_|\\___|') +
+      // Melionic ASCII Text Logo
+      chalk.cyan.bold('\n            ___         __          __  ') + 
+      chalk.cyan.bold('\n      |\\/| |__  |    | /  \\ |\\ | | /  ` ') + 
+      chalk.cyan.bold('\n      |  | |___ |___ | \\__/ | \\| | \\___ ') + 
       '\n' +
       chalk.cyan.bold('\n-- ') + chalk.yellow.bold('Propelling World-class Cross-platform Hybrid Applications') + chalk.cyan.bold(' -- ✈'));
   };
 
   exports.captain = function () {
     return console.log(
-      // Avionic ✈ Captain John Doe ASCII art
+      // Melionic ✈ Captain John Doe ASCII art
       '\n' +
       chalk.red.bold('\n                             .---. ') +
       chalk.red.bold('\n                            /_ ') + chalk.cyan.bold('✈') + chalk.red.bold(' _\\') +
@@ -55,7 +52,7 @@
 
   exports.crew = function () {
     return console.log(
-      // Avionic ✈ Chief flight attendant Jane Smith ASCII art
+      // Melionic ✈ Chief flight attendant Jane Smith ASCII art
       chalk.yellow.bold('\n                             .-- ') + chalk.cyan.bold('✈') + chalk.yellow.bold('') +
       chalk.yellow.bold('\n                            / /"\\ \\') +
       chalk.yellow.bold('\n                            )/') + chalk.cyan.bold('• •') + chalk.yellow.bold('\\(') +
@@ -69,7 +66,7 @@
 
   exports.plane = function () {
     return console.log(
-      // Avionic ✈ Aircraft ASCII art
+      // Melionic ✈ Aircraft ASCII art
       chalk.red.bold('\n                         ___________') +
       chalk.red.bold('\n                              |') +
       chalk.red.bold('\n                         _   _|_   _') +

@@ -54,7 +54,7 @@ class StaticGenerator extends Generators {
     if (!this.options['skip-welcome-message']) {
       ascii.logo();
       ascii.captain();
-      console.log(chalk.white.bold('\nThis is your Captain John Doe, welcoming you aboard to Avionic. \nAt this time, we request your full attention as your inflight \nteam will guide you through the safety features.\n'));
+      console.log(chalk.white.bold('\nThis is your Captain John Doe, welcoming you aboard to Melionic. \nAt this time, we request your full attention as your inflight \nteam will guide you through the safety features.\n'));
       ascii.crew();
       console.log(chalk.white.bold('\nLadies and gentlemen, this is Jane Smith and I’m your chief \nflight attendant. I\'d like to direct your attention to the \nterminal in front of you. We will be showing our safety \ndemonstration and would like the next few minutes of your \ncomplete attention.\n'));
     }
