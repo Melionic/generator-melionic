@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Melionic.png" alt="Melionic Logo" title="Melionic Logo">
+  <img src="images/melionic.png" alt="Melionic Logo" title="Melionic Logo">
 </p>
 
 
