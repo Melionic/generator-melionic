@@ -12,9 +12,9 @@ Simply designed to fit your web life.
 
 <a href="https://github.com/reedia/generator-melionic/releases/latest">Download Melionic</a>
 
-[![npm version](https://badge.fury.io/js/melionic.svg)](https://badge.fury.io/js/melionic)
-[![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://melionic.github.io/license)
-[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/reedia/melionic)
+[![npm version](https://badge.fury.io/js/melionic.svg)](https://badge.fury.io/js/generator-melionic)
+[![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://generator-melionic.github.io/license)
+[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/reedia/generator-melionic)
 
 
 ## Table of contents
