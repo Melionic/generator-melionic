@@ -1,5 +1,7 @@
-<center>
-# ![Melionic Logo](images/melionic.png)
+<p align="center">
+  <img src="images/melionic.png" alt="Melionic Logo" title="Melionic Logo">
+</p>
+
 
 ### Introducing 🐺 MELIONIC
 
