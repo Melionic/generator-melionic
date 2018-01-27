@@ -1,7 +1,7 @@
 {
   "name": "melionic",
   "version": "0.0.1",
-  "description": "A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.",
+  "description": "🐺 MELIONIC - A fast, simple and powerful Yeoman Static Site, Blog and GitHub Pages generator designed for Jekyll",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "reedia/generator-melionic",
@@ -20,11 +20,25 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator",
-    "blog",
-    "blogging",
+    "melionic",
+    "static-site-generator",
     "jekyll",
-    "post"
+    "jekyll-site",
+    "jekyll-blog",
+    "jekyll-website",
+    "blog-engine",
+    "javascript",
+    "node-js",
+    "markdown",
+    "markdown-to-html",
+    "static-site",
+    "static-site-generation",
+    "static-site-generator-generator",
+    "ruby",
+    "yeoman-generator",
+    "yo",
+    "lightweight",
+    "responsive"
   ],
   "dependencies": {
     "chalk": "^2.3.0",

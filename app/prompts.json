@@ -28,7 +28,7 @@
     "type"    : "input",
     "name"    : "siteKeywords",
     "message" : "Set your site keywords",
-    "default" :  "static-site-generator, jekyll,jekyll-site, jekyll-blog, jekyll-website, blog-engine, javascript, node-js, markdown, markdown-to-html, static-site, static-site-generation, static-site-generator-generator, ruby, yeoman-generator, yo, lightweight, responsive, skeletonic"
+    "default" :  "melionic, static-site-generator, jekyll,jekyll-site, jekyll-blog, jekyll-website, blog-engine, javascript, node-js, markdown, markdown-to-html, static-site, static-site-generation, static-site-generator-generator, ruby, yeoman-generator, yo, lightweight, responsive"
   },{
     "type"    : "input",
     "name"    : "siteUrl",
