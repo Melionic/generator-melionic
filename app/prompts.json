@@ -8,7 +8,7 @@
     "type"    : "input",
     "name"    : "siteTitle",
     "message" : "Set your site title",
-    "default" :  "🐺 Melionic - A Yeoman static site and blog generator for Jekyll projects in Ruby"
+    "default" :  "Melionic"
   },{
     "type"    : "input",
     "name"    : "siteLogo",
@@ -23,7 +23,7 @@
     "type"    : "input",
     "name"    : "siteDescription",
     "message" : "Set your site description",
-    "default" :  "A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot."
+    "default" :  "🐺 MELIONIC - A fast, simple and powerful Yeoman Static Site, Blog and GitHub Pages generator designed for Jekyll"
   },{
     "type"    : "input",
     "name"    : "siteKeywords",
