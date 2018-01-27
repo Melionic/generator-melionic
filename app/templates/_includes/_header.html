@@ -1,3 +1,4 @@
-<header class="site-header" role="banner">
-    <a class="site-title" href="{{ "/" | site_url }}">{{ site.title | escape }}</a>
+<header class="site-header" role="banner" itemscope itemtype="https://schema.org/Organization">
+    <h1 itemprop="name"><a class="site-title" href="{{ "/" | site_url }}" rel="home" itemprop="url"></a>{{ site.title | escape }}</a></h1>
+    <meta itemprop="logo" content="<%=site_logo %>">
 </header>

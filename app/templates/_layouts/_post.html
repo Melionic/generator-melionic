@@ -7,9 +7,10 @@ layout: default
 {% else %}
 {% assign modified = page.date %}
 {% endif %}
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<aside itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h2 style="text-transform:uppercase;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h2>
+
     <p>
       {% if page.author %}
         by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
@@ -18,7 +19,8 @@ layout: default
 
     <p>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-    <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
+      <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
+    </p>  
 
     <p>
       {% if page.tags.size > 0 %}
@@ -29,6 +31,7 @@ layout: default
     </p>
   </header>
 
-  {{ content }}
-
-</article>
+  <article itemprop="articleBody">
+      {{ content }}
+  </article>
+</aside>

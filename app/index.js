@@ -269,7 +269,10 @@ class StaticGenerator extends Generators {
     );
     this.fs.copyTpl(
       this.templatePath('../templates/_includes/_header.html'),
-      this.destinationPath('_includes/header.html')
+      this.destinationPath('_includes/header.html'),
+      {
+        site_logo: `${this.siteLogo}`
+      }
     );
     this.fs.copyTpl(
       this.templatePath('../templates/_includes/_icon-github.html'),
