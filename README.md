@@ -1,5 +1,6 @@
 <center>
-[![Melionic Logo](https://github.com/reedia/generator-melionic/raw/master/images/melionic.svg](https://melionic.io)
+![Melionic Logo](https://raw.githubusercontent.com/reedia/generator-melionic/master/images/melionic.svg "Melionic Logo")
+
 
 ### Introducing 🐺 MELIONIC
 
