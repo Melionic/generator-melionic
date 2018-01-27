@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="images/melionic.png" alt="Melionic Logo" title="Melionic Logo">
+  <img src="images/Melionic.png" alt="Melionic Logo" title="Melionic Logo">
 </p>
 
 
-### Introducing 🐺 MELIONIC
+### Introducing 🐺 Melionic
 
 #### A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects.
 
-Skeletonic is a lightweight, intuitive and ultra-responsive CSS framework to speed up your Digital and Mobile Web development needs.
+Melionic is a lightweight, intuitive and ultra-responsive CSS framework to speed up your Digital and Mobile Web development needs.
 
 Simply designed to fit your web life.
 
-<a href="https://github.com/reedia/skeletonic/archive/v1.0.35.zip">Download Skeletonic CSS</a>
+<a href="https://github.com/reedia/Melionic/archive/v1.0.35.zip">Download Melionic CSS</a>
 
-[![npm version](https://badge.fury.io/js/skeletonic.svg)](https://badge.fury.io/js/skeletonic)
-[![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://skeletonic.github.io/license)
-[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/reedia/skeletonic)
+[![npm version](https://badge.fury.io/js/Melionic.svg)](https://badge.fury.io/js/Melionic)
+[![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://Melionic.github.io/license)
+[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/reedia/Melionic)
 
 
 ## Table of contents
@@ -35,21 +35,21 @@ Simply designed to fit your web life.
 
 A few options are available:
 
--   Download the latest [release](https://github.com/reedia/skeletonic/archive/v1.0.35.zip)
--   Or simply clone the main repo: `git clone https://github.com/reedia/skeletonic.git`
+-   Download the latest [release](https://github.com/reedia/Melionic/archive/v1.0.35.zip)
+-   Or simply clone the main repo: `git clone https://github.com/reedia/Melionic.git`
 
 ## What's in the box
 
 Within the release you'll find the following directory and external style sheets with both compiled and minified CSS variations:
 
 ```
-Skeletonic/
-├── skeletonic-1.0.35.css
-├── skeletonic.min-1.0.35.css
-├── skeletonic-colours-1.0.35.css
-├── skeletonic-colours.min-1.0.35.css
-├── skeletonic-pattern-1.0.35.css
-├── skeletonic-pattern.min-1.0.35.css
+Melionic/
+├── Melionic-1.0.35.css
+├── Melionic.min-1.0.35.css
+├── Melionic-colours-1.0.35.css
+├── Melionic-colours.min-1.0.35.css
+├── Melionic-pattern-1.0.35.css
+├── Melionic-pattern.min-1.0.35.css
 ```
 
 You simply then need to link one of these in your HTML document.
@@ -59,33 +59,33 @@ The link consists of just a simple line of HTML code that you will need to put i
 #### Default CSS
 
 ```
-<link rel="stylesheet" type="text/css" href="skeletonic.min-1.0.35.css" />
+<link rel="stylesheet" type="text/css" href="Melionic.min-1.0.35.css" />
 ```
 
 #### CSS Responsive Grid-View
 ```
-<link rel="stylesheet" type="text/css" href="skeletonic-pattern.min-1.0.35.css" />
+<link rel="stylesheet" type="text/css" href="Melionic-pattern.min-1.0.35.css" />
 ```
 
 #### CSS Colours
 ```
-<link rel="stylesheet" type="text/css" href="skeletonic-colours.min-1.0.35.css" />
+<link rel="stylesheet" type="text/css" href="Melionic-colours.min-1.0.35.css" />
 ```
 
 We offer production-ready versions and use unpkg as our CDN to link to the latest production version
 
 ```
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/skeletonic" />
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/Melionic" />
 ```
 
 ## Alternate CDNs
-The following table lists alternate CDNs where Skeletonic is hosted.
+The following table lists alternate CDNs where Melionic is hosted.
 
 | CDN | URL | HTTPS | Combo |
 |---|---|---|---|
-| [unpkg](https://unpkg.com/) | https://unpkg.com/skeletonic@1.0.35/dist/skeletonic.min-1.0.35.css | Yes | No |
-|  [jsDelivr](https://www.jsdelivr.com/) | https://cdn.jsdelivr.net/npm/skeletonic/dist/skeletonic.min-1.0.35.css  | Yes | Yes |
-| [RawGit](http://rawgit.com/) | https://cdn.rawgit.com/reedia/skeletonic/cd0aca0e/dist/skeletonic.min-1.0.35.css | Yes | No |
+| [unpkg](https://unpkg.com/) | https://unpkg.com/Melionic@1.0.35/dist/Melionic.min-1.0.35.css | Yes | No |
+|  [jsDelivr](https://www.jsdelivr.com/) | https://cdn.jsdelivr.net/npm/Melionic/dist/Melionic.min-1.0.35.css  | Yes | Yes |
+| [RawGit](http://rawgit.com/) | https://cdn.rawgit.com/reedia/Melionic/cd0aca0e/dist/Melionic.min-1.0.35.css | Yes | No |
 
 
 
@@ -96,10 +96,10 @@ The following table lists alternate CDNs where Skeletonic is hosted.
 
 ## Contributing
 
-Please read carefully through our [Contributing Guidelines](https://github.com/reedia/skeletonic/blob/master/CONTRIBUTING.md) for further details on the process for submitting pull requests to us.
+Please read carefully through our [Contributing Guidelines](https://github.com/reedia/Melionic/blob/master/CONTRIBUTING.md) for further details on the process for submitting pull requests to us.
 
 ## Code of Conduct
-We are committed to preserving and fostering a diverse, welcoming community. Please read our [Code of Conduct](https://github.com/reedia/skeletonic/blob/master/CODE_OF_CONDUCT.md).
+We are committed to preserving and fostering a diverse, welcoming community. Please read our [Code of Conduct](https://github.com/reedia/Melionic/blob/master/CODE_OF_CONDUCT.md).
 
 ## Our Values
 1.  We believe perfection must consider everything.
@@ -108,16 +108,16 @@ We are committed to preserving and fostering a diverse, welcoming community. Ple
 
 ## History
 
-*   See [Skeletonic Release](https://github.com/reedia/skeletonic/releases) list.
+*   See [Melionic Release](https://github.com/reedia/Melionic/releases) list.
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/reedia/skeletonic/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/reedia/Melionic/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
-[Skeletonic](https://skeletonic.io) is beautifully crafted by these people and a bunch of awesome [contributors](https://github.com/reedia/skeletonic/graphs/contributors)
+[Melionic](https://Melionic.io) is beautifully crafted by these people and a bunch of awesome [contributors](https://github.com/reedia/Melionic/graphs/contributors)
 
 [![Sebastien Rousseau](https://avatars0.githubusercontent.com/u/1394998?s=117)](http://sebastienrousseau.com) |
 |:---:
