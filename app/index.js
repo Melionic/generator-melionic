@@ -25,6 +25,7 @@
 *
 */
 'use strict';
+/* eslint camelcase: [2, {properties: "never"}] */
 /* jslint nomen: true */
 /* jslint vars: true */
 /* global require,process,module */
@@ -65,6 +66,7 @@ class StaticGenerator extends Generators {
       // Set needed global vars for yo
       this.siteVersion = props.siteVersion;
       this.siteTitle = props.siteTitle;
+      this.siteLogo = props.siteLogo;
       this.siteDescription = props.siteDescription;
       this.siteKeywords = props.siteKeywords;
       this.siteLanguage = props.siteLanguage;
@@ -86,6 +88,7 @@ class StaticGenerator extends Generators {
       // Set needed keys into config
       this.config.set('siteVersion', this.siteVersion);
       this.config.set('siteTitle', this.siteTitle);
+      this.config.set('siteLogo', this.siteLogo);
       this.config.set('siteDescription', this.siteDescription);
       this.config.set('siteKeywords', this.siteKeywords);
       this.config.set('siteLanguage', this.siteLanguage);
@@ -140,7 +143,29 @@ class StaticGenerator extends Generators {
     );
     this.fs.copyTpl(
       this.templatePath('../templates/_index.html'),
-      this.destinationPath('index.html')
+      this.destinationPath('index.html'),
+      {
+        site_version: `${this.siteVersion}`,
+        site_title: `${this.siteTitle}`,
+        site_logo: `${this.siteLogo}`,
+        site_description: `${this.siteDescription}`,
+        site_keywords: `${this.siteKeywords}`,
+        site_language: `${this.siteLanguage}`,
+        site_url: `${this.siteUrl}`,
+        site_author: `${this.siteAuthor}`,
+        site_email: `${this.siteEmail}`,
+        twitter_username: `${this.twitterUsername}`,
+        facebook_username: `${this.facebookUsername}`,
+        linkedin_username: `${this.linkedinUsername}`,
+        google_plus_username: `${this.googleplusUsername}`,
+        disqus_id: `${this.disqusId}`,
+        addthis_pubid: `${this.addthisPubId}`,
+        ga_tracking_id: `${this.gaTrackingId}`,
+        ga_superproxy_url: `${this.gaSuperProxyUrl}`,
+        github_username: `${this.githubUsername}`,
+        github_repo: `${this.githubRepo}`,
+        feedback_url: `${this.feedbackUrl}`        
+      }
     );
     this.fs.copyTpl(
       this.templatePath('../templates/_robots.txt'),

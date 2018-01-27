@@ -1,15 +1,24 @@
 ---
 layout: default
+title: <%= site_title %>
+description: <%= site_description %>
+categories: []
+tags: [<%= site_author %>, <%= site_keywords %>]
+status: publish
+published: true
+meta: { <%= site_author %>, <%= site_keywords %> }
 ---
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}</li>
-  {% endfor %}
-</ul>
-
-
+<h2 itemprop="name"><%= site_title %></h2>
+<meta itemprop="logo" content="<%= site_logo %>">    
+{% for post in site.posts %}
+<article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <h2><span>{{ post.date | date_to_string }} &raquo; </span><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a></h2>
+  <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+  <p itemprop="description">
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}         
+  </p>
+</article>
+{% endfor %}
 <!--
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site_url }}">Older</a>

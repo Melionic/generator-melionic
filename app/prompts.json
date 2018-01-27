@@ -11,6 +11,11 @@
     "default" :  "MELIONIC"
   },{
     "type"    : "input",
+    "name"    : "siteLogo",
+    "message" : "Set your site logo path",
+    "default" :  "/assets/images/logo.png"
+  },{
+    "type"    : "input",
     "name"    : "siteLanguage",
     "message" : "Set your site language (i.e en-GB)",
     "default" :  "en-GB"
