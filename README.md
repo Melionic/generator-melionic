@@ -1,6 +1,6 @@
 <center>
 
-![Melionic Logo](images/melionic.png)
+# ![Melionic Logo](images/melionic.png)
 
 
 ### Introducing 🐺 MELIONIC
