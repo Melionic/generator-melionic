@@ -8,7 +8,7 @@
     "type"    : "input",
     "name"    : "siteTitle",
     "message" : "Your site title",
-    "default" :  "Generator Static"
+    "default" :  "MELIONIC"
   },{
     "type"    : "input",
     "name"    : "siteLanguage",
@@ -84,7 +84,7 @@
     "type"    : "input",
     "name"    : "githubRepo",
     "message" : "Your GitHub Repo",
-    "default" :  "@github.com:reedia/generator-static.git"
+    "default" :  "@github.com:reedia/generator-melionic.git"
   },{
     "type"    : "input",
     "name"    : "feedbackUrl",

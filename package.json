@@ -1,13 +1,13 @@
 {
-  "name": "generator-static",
+  "name": "melionic",
   "version": "0.0.1",
-  "description": "Jekyll Starter - Yeoman generator",
+  "description": "A Yeoman static site and blog generator that helps you kickstart highly sophisticated Jekyll projects to evolve and upgrade every aspect of your Ruby development to the next moonshot.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "reedia/generator-static",
+  "repository": "reedia/generator-melionic",
   "author": {
     "name": "Sebastien Rousseau",
-    "email": "hello@reedia.com",
+    "email": "hello@melionic.io",
     "url": "https://github.com/sebastienrousseau"
   },
   "engines": {
