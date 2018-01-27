@@ -20,9 +20,9 @@ Simply designed to fit your web life.
 
 ## Table of contents
 
-- [Getting Started](#getting-started)
-- [What's in the box](#whats-in-the-box)
--[Alternate CDNs](#alternate-cdns)
+-   [Getting Started](#getting-started)
+-   [What's in the box](#whats-in-the-box)
+-   [Alternate CDNs](#alternate-cdns)
 -   [Built With](#built-with)
 -   [Contributing](#contributing)
 -   [Code of Conduct](#code-of-conduct)
