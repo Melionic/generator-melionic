@@ -89,7 +89,7 @@
     "type"    : "input",
     "name"    : "githubRepo",
     "message" : "Set your GitHub Repo",
-    "default" :  "@github.com:reedia/generator-melionic.git"
+    "default" :  "@github.com:Melionic/generator-melionic.git"
   },{
     "type"    : "input",
     "name"    : "feedbackUrl",
